@@ -9,4 +9,5 @@ PBA Fall 2026 team project — Group 2
 - Warunya Kumpunya (邱品寧) - 112006210
 
 ## Topic Ideas
-- TBD
+We plan to study what drives used car prices, such as make and model, year of manufacture, mileage, and overall condition. 
+We will use public dataset from Kaggle (https://www.kaggle.com/code/satyaprakashshukl/used-car-price-prediction).
