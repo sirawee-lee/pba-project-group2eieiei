@@ -11,7 +11,7 @@ raw_dir  <- "data/raw"
 raw_file <- file.path(raw_dir, "vehicles.csv")
 dir.create(raw_dir, recursive = TRUE, showWarnings = FALSE)
 
-# ---- 1. Download raw data (1.4 GB, kept out of git, see .gitignore) -----------
+# download raw data (1.4 GB, not in git)
 if (!file.exists(raw_file)) {
   options(timeout = 3600)
   zip_file <- file.path(raw_dir, "vehicles.zip")
@@ -31,7 +31,7 @@ raw <- read_csv(
   show_col_types = FALSE
 )
 
-# ---- 2. Clean -----------------------------------------------------------------
+# cleaning
 # Listings were posted April 4 - May 5, 2021, so age = 2021 - model year.
 luxury_brands <- c("acura", "alfa-romeo", "aston-martin", "audi", "bmw",
                    "cadillac", "ferrari", "infiniti", "jaguar", "land rover",
@@ -68,7 +68,7 @@ cars <- raw |>
          year, car_age, odometer, price, condition, title_status, fuel,
          transmission, drive, type, posting_date)
 
-# ---- 3. Save ------------------------------------------------------------------
+# save
 write_csv(cars, "data/vehicles_clean.csv.gz")
 
 cat("Raw rows:", nrow(raw), " Clean rows:", nrow(cars),
