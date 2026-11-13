@@ -20,11 +20,12 @@ PBA Fall 2026 team project, Group 2
 
 ## How to run
 
-Open pba-project-group2eieiei.Rproj in RStudio and run:
+Open `pba-project-group2eieiei.Rproj` in RStudio and run:
 
-r
+```r
 source("R/01_clean_data.R")  # downloads the raw data (1.4 GB) and makes data/vehicles_clean.csv.gz
 source("R/02_first_look.R")  # 5-year loss by model and by buying age
 source("R/03_figures.R")     # Milestone 3 figures, saved in figures/
+```
 
-The cleaned file is already in the repo, so you can skip the first step and run R/02_first_look.R and R/03_figures.R directly.
+The cleaned file is already in the repo, so you can skip the first step and run `R/02_first_look.R` and `R/03_figures.R` directly.

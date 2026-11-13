@@ -33,7 +33,7 @@ Here we imagine someone buys a car at 3 years old and sells it at 8. Some things
 
 - The gap between models is big. Ram 1500 keeps 71% of its price and Jeep Wrangler 68%, but Nissan Rogue keeps only 44%.
 - All six pickups are above the median (54%). The median pickup keeps 60%, the other segments are around 50–54%.
-- Toyota trucks and SUVs do well (Tacoma 65%, RAV4 64%), but Camry, Corolla, Civic and Accord are only around the median or below it. So a reliable brand alone does not explain it.
-- Pickups keep the biggest share but they also lose the most dollars (\$15,600–\$18,400) since they are expensive. The Nissan Sentra loses the least, only \$6,700.
+- Toyota trucks and SUVs do well (Tacoma 66%, RAV4 64%), but Camry, Corolla, Civic and Accord are only around the median or below it. So a reliable brand alone does not explain it.
+- Pickups keep the biggest share, but because they are expensive, four of them (F-150, Silverado, Tundra, Sierra) also have some of the biggest dollar losses, \$15,600–\$18,400. The Ram 1500 is different and loses only \$9,500. The Nissan Sentra loses the least, only \$6,700.
 
 This supports the pickup part of H2, but not the part about reliable sedans. It also means the answer to who loses the least money depends on whether we look at percent or dollars. Next we will repeat this for every buying age (1–10) and control for mileage, condition and seller type.
