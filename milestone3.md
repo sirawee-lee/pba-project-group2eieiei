@@ -27,7 +27,7 @@ So H1 is true in dollars, but not really in percent. We don't see an age where t
 
 ## Share of Price Kept by Model
 
-![Share of price kept if you buy at age 3 and sell at age 8. Right column = 5-year loss in dollars.](figures/fig2_share_kept.png){ width=62% }
+![Share of price kept if you buy at age 3 and sell at age 8. Right column = 5-year loss in dollars.](figures/fig2_share_kept.png)
 
 Here we imagine someone buys a car at 3 years old and sells it at 8. Some things we noticed:
 
