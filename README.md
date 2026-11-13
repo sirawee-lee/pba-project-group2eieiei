@@ -1,6 +1,6 @@
 # pba-project-group2eieiei
 
-PBA Fall 2026 team project — Group 2
+PBA Fall 2026 team project, Group 2
 
 ## Team members
 
@@ -15,15 +15,16 @@ PBA Fall 2026 team project — Group 2
 **Data:** [Used Cars Dataset](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) by Austin Reese on Kaggle. It has about 427,000 used car listings from Craigslist in the U.S., posted in April and May 2021 (CC0 license).
 
 - Milestone 2 proposal: [proposal.md](proposal.md)
+- Milestone 3 first look (figures + write-up): [milestone3.md](milestone3.md)
 - Codebook: [data/codebook.md](data/codebook.md)
 
 ## How to run
 
-Open `pba-project-group2eieiei.Rproj` in RStudio and run:
+Open pba-project-group2eieiei.Rproj in RStudio and run:
 
-```r
+r
 source("R/01_clean_data.R")  # downloads the raw data (1.4 GB) and makes data/vehicles_clean.csv.gz
 source("R/02_first_look.R")  # 5-year loss by model and by buying age
-```
+source("R/03_figures.R")     # Milestone 3 figures, saved in figures/
 
-The cleaned file is already in the repo, so you can skip the first step and run `R/02_first_look.R` directly.
+The cleaned file is already in the repo, so you can skip the first step and run R/02_first_look.R and R/03_figures.R directly.
